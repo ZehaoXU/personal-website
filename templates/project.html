@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/mobile.css" media="screen and (max-width : 568px)">
+	<script type="text/javascript" src="/static/js/mobile.js"></script>
+</head>
+<body>
+	<div id="header">
+			<a href="/home" class="logo">
+				<img src="/static/images/logo2.jpg" alt="">
+			</a>
+			<ul id="navigation">
+				<li>
+					<a href="/home">home</a>
+				</li>
+				<li>
+					<a href="/author">author</a>
+				</li>
+				<li class="selected">
+					<a href="/project">project</a>
+				</li>
+				<li>
+					<a href="/demo">demo</a>
+				</li>
+				<li>
+					<a href="/contact">contact</a>
+				</li>
+			</ul>
+		</div>
+	<div id="body">
+		<h1><span>projects</span></h1>
+		<div>
+			<img src="/static/images/cnn.png" alt="">
+			<div class="jasper">
+				<h4>Real-time Face Recognition using CNN</h4>
+				<p>
+				Face recognition and object recognition are hot topics in computer vision and machine learning fields. 
+				This project aims to using python to implement some key algorithms about face detection and convolutional neural networks, 
+				aka CNN. The whole project can be divided into <strong>three</strong> steps.
+                </p>
+				<h3>STEP 1</h3>
+				<p>Use haar or lbp cascade features in opencv to detect different faces and get enough datasets of different 
+					people. Mark different pictures with different labels. Then use <a href="https://docs.opencv.org/3.3.1/da/d60/tutorial_face_main.html" title="official docs" target="_blank">FishFaceRecognizer</a> 
+					or <a href="https://docs.opencv.org/3.3.1/df/d25/classcv_1_1face_1_1LBPHFaceRecognizer.html" title="official docs" target="_blank">LBPHFaceRecognizer</a> to learn from the datasets and train a model. 
+					Then use videos and images to check the effect of the trained model.
+				</p>
+				<h3>STEP 2</h3>
+				<p>Learn basic knowledge of convolutional neural networks and tensorflow. Then, with the help of github and other resources, thry to 
+					write a CNN trainer myself and train a model. Use videos and images to chech the effect of the new model.
+				</p>
+				<h3>STEP 3</h3>
+				<p>Plant what we have done to a embedded system--raspberry pi. Raspberry pi is one of the most popular demoboards, which is cheap and high-performance. 
+					Check <a href="https://zh.wikipedia.org/zh/%E6%A0%91%E8%8E%93%E6%B4%BE" titel="wiki" target="_blank">this</a> to get more information. This embedded system has a wide range of use, such as intelligent 
+					gate lock and monitor.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p>Copyright &copy; Course Project of Python Programming, 2018</p>
+			<ul>
+				<li>
+					<a href="/contact" id="twitter">twitter</a>
+				</li>
+				<li>
+					<a href="/contact" id="facebook">facebook</a>
+				</li>
+				<li>
+					<a href="/contact" id="googleplus">googleplus</a>
+				</li>
+				<li>
+					<a href="/contact" id="pinterest">pinterest</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

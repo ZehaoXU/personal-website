@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Demo</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/mobile.css" media="screen and (max-width : 568px)">
+	<script type="text/javascript" src="/static/js/mobile.js"></script>
+</head>
+<body>
+	<div id="header">
+		<a href="/home" class="logo">
+			<img src="/static/images/logo2.jpg" alt="">
+		</a>
+		<ul id="navigation">
+			<li>
+				<a href="/home">home</a>
+			</li>
+			<li>
+				<a href="/author">author</a>
+			</li>
+			<li>
+				<a href="/project">project</a>
+			</li>
+			<li class="selected">
+				<a href="blog.html">demo</a>
+			</li>
+			<li>
+				<a href="/contact">contact</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<h1><span>Demo</span></h1>
+		<div>
+			<ul>
+				<li>
+					<a href="/demo1" class="figure">
+						<img src="/static/images/demo1_face2.jpg" alt="">
+					</a>
+					<div>
+						<h3>
+							real-time face detect and recognize
+						</h3>
+						<p>
+							First, use haar and lbp features to detect multiple faces and compare the 
+							difference of two methods. Then try to detect smile based on step1. Finally I train a face-
+							classifier model with LBPHFaceClassifier.
+						</p>
+						<a href="/demo1" class="more">learn more</a>
+					</div>
+				</li>
+				<li>
+					<a href="/demo2" class="figure">
+						<img src="/static/images/robot.jpg" alt="">
+					</a>
+
+					<div>
+						<h3>
+							cnn image classifier
+						</h3>
+						<p>
+							Implement a simple convolutional neural network with tensorflow. And train the network to do 
+							certain classifying jobs. In this demo, I train this network to classify 5 types of dogs. 
+						</p>
+						<a href="/demo2" class="more">learn more</a>
+					</div>
+				</li>
+				<li>
+					<a href="/demo3" class="figure">
+						<img src="/static/images/nn.jpg" alt="">
+					</a>
+
+					<div>
+						<h3>
+							real-time object detection
+						</h3>
+						<p>
+							Classifying only tells you what it is but detection tells you what it is and where it is. 
+							This demo is a try of SSD object detection model built and trained with caffee.
+						</p>
+						<a href="/demo3" class="more">learn more</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<p>Copyright &copy; Course Project of Python Programming, 2018</p>
+			<ul>
+				<li>
+					<a href="/contact" id="twitter">twitter</a>
+				</li>
+				<li>
+					<a href="/contact" id="facebook">facebook</a>
+				</li>
+				<li>
+					<a href="/contact" id="googleplus">googleplus</a>
+				</li>
+				<li>
+					<a href="/contact" id="pinterest">pinterest</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
